@@ -1,0 +1,89 @@
+img{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+body{
+    margin: 70px auto;
+    background-color: rgb(170, 167, 162);
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+
+main{
+    flex: 1.75;
+    background-color: rgb(42, 100, 100);
+    background-image: url(../image.png);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+aside{
+    flex: 1.25;
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: azure; */
+    margin: auto;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(204, 70, 137);
+    color: white;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 96.5%;
+    padding: 5px;
+    border: 1px solid rgba(160, 153, 140, 0.589);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+input[type="checkbox"]{
+    background-color: rgb(116, 121, 121);
+}
+
+h5, h4{
+    align-self: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(192, 60, 122);
+    font-weight: bold;
+}
+
+h2{
+    background-color: antiquewhite;
+    padding: 13px;
+    width: 70%;
+    font-weight: bold;
+    color: rgb(180, 56, 114);
+    margin-top: 80px;
+}
+span{
+    font-size: xx-large;
+    font-weight: bolder;
+}
